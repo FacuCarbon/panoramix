@@ -1,0 +1,138 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url('../images/body2.jpg');
+  
+}
+
+
+.cabecera{
+  border: solid 1px black;
+}
+
+
+
+.logo{
+  height: 130px;
+  width: 170px;
+  border-radius: 65px;
+  border: solid 1px gray;
+  margin-top: 35px;
+}
+
+.login li{
+  float: right;
+  list-style: none;
+  padding-right: 12px;
+  margin-top: 15px;
+  color: green;
+  font-weight: bold;
+  font-style: italic;
+  
+}
+
+.form-inline .form-control{
+  width: 351px;
+}
+
+.titulo-P{
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 30px;
+  font-family: "Times New Roman", Georgia, Serif;
+  color: green;
+  font-weight: revert;
+  font-style: italic;
+
+}
+
+.menu{
+  margin-top: 30px;
+  background-color: darkslategray;
+  
+}
+
+.nav-item{
+  padding-right: 15px;
+}
+
+/* Fin de header */
+
+/* Inicio Carrousel */
+
+.d-block{
+  width: 550px;
+  margin-left: 30%;
+  margin-top: 15px;
+  height: 178px;
+  border-radius: 20px;
+}
+
+.carousel-indicators{
+  margin-top: 20px;
+}
+
+/* Fin carrousel */
+
+/* Categoria 1 productos */
+.div-categoria1{
+  text-align: center;
+  background-color: darkslategray;
+  margin-top: 15px;
+  border-radius: 15px;
+}
+
+.categoria1-P1{
+  width: 255px;
+  height: 249px;
+  margin-left: 20px;
+  border-radius: 30px;
+}
+
+.info-C1-P1{
+  margin-left: 30%;
+  color: black;
+}
+.articulo-c1-p1{
+  border: solid 1px black;
+  margin-left: 10px;
+  border-radius: 20px;
+}
+
+.div-c1-p{
+  border-left: 1px solid darkslategrey;
+}
+
+/* Categoria 2 productos */
+
+.div-categoria2{
+  text-align: center;
+  background-color: darkslategray;
+  margin-top: 15px;
+  border-radius: 15px;
+}
+
+.categoria2-P1{
+  width: 255px;
+  height: 249px;
+  margin-left: 20px;
+  border-radius: 30px;
+}
+
+.info-C2-P1{
+  margin-left: 30%;
+  color: black;
+}
+.articulo-c2-p1{
+  border: solid 1px black;
+  margin-left: 10px;
+  border-radius: 20px;
+}
+
+.div-c2-p{
+  border-left: 1px solid darkslategrey;
+}
